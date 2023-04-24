@@ -25,11 +25,10 @@ const Hero = ({ mintNFT, claimedSupply, totalSupply, inAllowlist, nftPrice, clai
     return (
         <main className={styles.wrapper}>
             <div className={styles.container}>
-                <h1 className={styles.heroTitle}>Bored Ape Yacht Club</h1>
+                <h1 className={styles.heroTitle}>Melo JackedUp Dogs Club</h1>
 
                 <p className={styles.heroParagraph}>
-                    The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community
-                    through roadmap activation. This project is not affiliated by the real Bored Ape Yacht Club. Before making a purchase, please do your own research and always invest money you can afford to lose.
+                Join The Melo JackedUp Dogs Club (MJDC) is the melo inu official collection of 3D NFT Dogs Jacked Up on a melo life. By holding a Jacked Dogs, you will get exclusive access to future collections, to real world events & meetups, to exclusive rights and revenues within the melo ecosystem and other perks as a member of the MJDC.
                 </p>
 
                 <ul>
@@ -41,7 +40,7 @@ const Hero = ({ mintNFT, claimedSupply, totalSupply, inAllowlist, nftPrice, clai
                 <div className={styles.heroCta}>
                     {inAllowlist && (
                         <button onClick={mintNFT} className={styles.mintButton}>
-                            Mint Your NFT ({nftPrice} ETH)
+                            Mint Your NFT ({nftPrice} MELO)
                         </button>
                     )}
                     <p>
