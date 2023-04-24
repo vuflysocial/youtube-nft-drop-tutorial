@@ -10,7 +10,7 @@ import { useAllowlist } from '../utils/allowlist'
 import useFetcher from '../utils/fetch'
 
 const styles = {
-    wrapper: 'flex min-h-screen bg-[#1d1d1d] text-gray-200',
+    wrapper: 'flex min-h-screen bg-[#000000] text-gray-200',
     container: 'flex flex-col lg:flex-row flex-1 p-5 pb-20 lg:p-10 space-y-10 lg:space-y-0',
     infoSection: 'lg:w-2/3 px-10',
     mobileDisplaySection: 'h-[300px] flex w-full lg:hidden lg:w-1/3 mt-4',
