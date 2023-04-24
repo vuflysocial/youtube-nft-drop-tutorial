@@ -8,6 +8,7 @@ const styles = {
     heroParagraph: 'xl:pr-40',
     heroCta: 'flex items-center space-x-10',
     mintButton: 'rounded-xl border border-gray-100 bg-transparent px-8 py-4 font-semibold text-gray-100 transition-all hover:bg-gray-100 hover:text-[#1d1d1d]',
+    background: 'black'
 }
 
 const Hero = ({ mintNFT, claimedSupply, totalSupply, inAllowlist, nftPrice, claimPhases }) => {
@@ -18,7 +19,7 @@ const Hero = ({ mintNFT, claimedSupply, totalSupply, inAllowlist, nftPrice, clai
         return {
             ...phase,
             icon: hasPast ? CheckIcon : ClockIcon,
-            iconBackground: hasPast ? 'bg-green-500' : 'bg-gray-400',
+            iconBackground: hasPast ? 'bg-green-500' : 'bg-black',
         }
     })
 
@@ -53,3 +54,4 @@ const Hero = ({ mintNFT, claimedSupply, totalSupply, inAllowlist, nftPrice, clai
 }
 
 export default Hero
+
