@@ -1,6 +1,6 @@
 import React from 'react';
 
-library.add(faTwitterSquare, faBook, faEnvelope);
+
 
 const styles = {
   wrapper: 'flex min-h-screen flex-col bg-[#000000] text-gray-200',
