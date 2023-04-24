@@ -1,8 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faBook, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFontAwesome, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
 
 library.add(faTwitterSquare, faBook, faEnvelope);
 
@@ -25,17 +21,7 @@ const Login = ({ login }) => {
           </button>
         </div>
         <br/>
-        <div className={styles.footer}>
-          <a href="#" className="mr-4">
-            <FontAwesomeIcon icon={faTwitterSquare} className="icon fa-2x" />
-          </a>
-          <a href="#" className="mr-4">
-            <FontAwesomeIcon icon={faBook} className="icon fa-2x" />
-          </a>
-          <a href="#" className="mr-4">
-            <FontAwesomeIcon icon={faEnvelope} className="icon fa-2x" />
-          </a>
-        </div>
+        
         <div>
           <h1>
             MJDC
